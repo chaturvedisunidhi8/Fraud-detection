@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential  
 from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout  
 
-# Load Dataset  
+# Load Dataset   
 df = pd.read_csv("info.csv")     
 print(df.shape)  
 print(df.head())  
