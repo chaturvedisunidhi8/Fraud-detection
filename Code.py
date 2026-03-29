@@ -14,7 +14,7 @@ print(df.head())
 
 # Basic Cleaning   
 df.dropna(inplace=True)  
-df.reset_index(drop=True, inplace=True)  
+df.reset_index(drop=True, inplace=True)   
 
 # Input and output features  
 X = df['text']         
